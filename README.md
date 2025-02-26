@@ -2,7 +2,7 @@
 
 This is a simple REST API built using Node.js, Express.js, and MongoDB for a car rental system. The API allows users to register, login, view their profile, and browse rental cars.
 
-1.CLone the Repository
+1.Clone the Repository
 git clone https://github.com/your-username/carrent.git
 cd carrent
 
