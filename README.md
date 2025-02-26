@@ -43,6 +43,7 @@ Here are the available API endpoints you can test:
 POST /api/auth/register
 
 Request Body:
+
 {
   "fullName": "Test test",
   "email": "test@example.com",
@@ -51,36 +52,49 @@ Request Body:
 }
 
 2. User Login
+   
 POST /api/auth/login
 
 Request Body:
+
 {
   "username": "test_test1",
   "password": "password"
 }
 
 3. Get User Profile (Authenticated)
+
 GET /api/auth/my-profile
 
 Headers:
+
 Authorization: Bearer <JWT Token>
 
 4. Get Rental Cars
+   
 GET /api/cars/rental-cars
 
 Query Parameters:
 
 year: Filter by year 
+
 color: Filter by color 
+
 steering_type: Filter by steering type 
+
 number_of_seats: Filter by number of seats 
 
 
 Authentication
+
 JWT authentication is used for the /my-profile endpoint. After logging in, you will receive a token. Include this token in the Authorization header to access protected routes.
 
 Testing Steps:
+
 Register a User: Send a POST request to /api/auth/register with the required fields.
+
 Login: Send a POST request to /api/auth/login with the username and password.
+
 Get Profile: Send a GET request to /api/auth/my-profile with the JWT token in the Authorization header.
+
 Browse Rental Cars: Send a GET request to /api/cars/rental-cars with optional query parameters to filter the cars.
