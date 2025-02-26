@@ -7,13 +7,7 @@ This is a simple REST API built using Node.js, Express.js, and MongoDB for a car
 - Node.js (v14.x or higher)
 - MongoDB (Local or Cloud Atlas)
 
-## Installation
-
-Follow these steps to set up the project on your local machine.
-
-### 1. Clone the Repository
-
-```bash
+1.CLone the Repository
 git clone https://github.com/your-username/carrent.git
 cd carrent
 
