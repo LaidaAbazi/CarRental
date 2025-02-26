@@ -3,30 +3,43 @@
 This is a simple REST API built using Node.js, Express.js, and MongoDB for a car rental system. The API allows users to register, login, view their profile, and browse rental cars.
 
 1.Clone the Repository
+
 git clone https://github.com/your-username/carrent.git
+
 cd carrent
 
 2. Install Dependencies
+   
 Run the following command to install the required dependencies:
+
 npm install
 
-3. Set Up Environment Variables
+4. Set Up Environment Variables
+   
 Create a .env file in the root directory of the project and add the following environment variables:
 
 Environment Variables
+
 MONGO_URI: MongoDB connection string (default: mongodb://localhost:27017)
+
 JWT_SECRET: Secret key for signing JWT tokens.
+
 PORT: The port for the server to run on (default: 5000).
 
 4. Start the Application
+   
 Run the following command to start the application:
+
 npm start
+
 This will start the server at http://localhost:5000.
 
 API Endpoints
+
 Here are the available API endpoints you can test:
 
 1. User Registration
+   
 POST /api/auth/register
 
 Request Body:
