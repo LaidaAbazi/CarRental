@@ -36,10 +36,10 @@ POST /api/auth/register
 
 Request Body:
 {
-  "fullName": "John Doe",
-  "email": "johndoe@example.com",
-  "username": "john_doe123",
-  "password": "password123"
+  "fullName": "Test test",
+  "email": "test@example.com",
+  "username": "test_test1",
+  "password": "password"
 }
 
 2. User Login
@@ -47,8 +47,8 @@ POST /api/auth/login
 
 Request Body:
 {
-  "username": "john_doe123",
-  "password": "password123"
+  "username": "test_test1",
+  "password": "password"
 }
 
 3. Get User Profile (Authenticated)
